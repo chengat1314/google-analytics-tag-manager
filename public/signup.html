@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SDCC - Signup</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KJTJCD"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KJTJCD');</script>
+  <!-- End Google Tag Manager -->
+    <h1>San Diego Code Camp</h1>
+    <ul class="breadcrumb">
+      <li><a href="/">Home</a> <span class="divider"></span></li>
+      <li class="active"><a href="/signup.html">Signup</a> <span class="divider"></span></li>
+    </ul>
+  <div class="container">
+    <p>Here is a form to fill out.</p>
+    <form action="/users" method="post">
+      First name:<br>
+      <input type="text" name="firstname">
+      <br>
+      Last name:<br>
+      <input type="text" name="lastname">
+      <input class="btn btn-success" type="submit" value="Submit">
+    </form>
+  </div>
+  </body>
+</html>
