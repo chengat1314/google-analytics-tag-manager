@@ -8,18 +8,21 @@
   <body>
     <h1><%= title %></h1>
     <ul class="breadcrumb">
-      <li class="active"><a href="/">Home</a> <span class="divider"></span></li>
-      <li><a href="/signup">Signup</a> <span class="divider"></span></li>
+      <li><a href="/">Home</a> <span class="divider"></span></li>
+      <li class="active"><a href="/signup">Signup</a> <span class="divider"></span></li>
     </ul>
   <div class="container">
-    <p>Welcome to <%= title %></p>
-    <p>Here are some buttons to click.</p>
-    <button class="btn btn-large btn-primary">Click ME.</button>
-    <button class="btn btn-large btn-success">or Click ME!!</button>
-    <button class="btn btn-large btn-danger">Don't click me...</button>
-  </div>
-
+    <p>Here is a form to fill out.</p>
+    <form action="/users" method="post">
+      First name:<br>
+      <input type="text" name="firstname">
+      <br>
+      Last name:<br>
+      <input type="text" name="lastname">
+      <input class="btn btn-success" type="submit" value="Submit">
+    </form>
     <!-- Live reload script -->
     <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
+  </div>
   </body>
 </html>

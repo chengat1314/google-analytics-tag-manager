@@ -1,10 +1,11 @@
 'use strict';
 var express = require('express');
-var router = express.Router();
+var app = express();
 
-/* GET users listing. */
-router.get('/', function(req, res) {
-  res.send('respond with a resource');
+/* Post form data and show thank you. */
+app.post('/users', function(req, res) {
+  //TODO: handle submission of data.
+  res.send('Thanks!');
 });
 
-module.exports = router;
+module.exports = app;
