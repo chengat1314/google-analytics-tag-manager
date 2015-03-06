@@ -2,7 +2,7 @@
 
 ## Basic setup
 
-1) If you don’t already have a gmail/Google account create one here: hhttps://accounts.google.com/SignUp
+1) If you don’t already have a gmail/Google account create one here: https://accounts.google.com/SignUp
 
 2) Signup for a free Heroku account: https://signup.heroku.com/login
 
