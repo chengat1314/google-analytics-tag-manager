@@ -19,7 +19,9 @@ Click on the button:
 ## Download the repository locally
 
 `$ heroku git:clone -a [name of heroku app]`
+
 `$ cd [name of heroku app]`
+
 `$ sudo npm install`
 
 ## Run the web server
